@@ -19,7 +19,7 @@ import com.javaex.vo.PhonebookVo;
 public class PhoneController {
 	
 	@Autowired
-	private PhonebookService phonebookService;
+	private PhonebookService phonebookService; //1234
 	
 	//리스트
 	@GetMapping(value="/api/phone/list")
